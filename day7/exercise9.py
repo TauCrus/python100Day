@@ -51,8 +51,8 @@ def main():
         begin = False
         turn = 'x'
         counter = 0
-        # os.system('clear')
-        os.system('cls')
+        os.system('clear')
+        # os.system('cls')
 
         print_board(current_board)
         while counter < 9:
@@ -65,8 +65,8 @@ def main():
                     turn = 'o'
                 else:
                     turn = 'x'
-            # os.system('clear')
-            os.system('cls')
+            os.system('clear')
+            # os.system('cls')
             print_board(current_board)
             if check_win(current_board):
                 print("%s is winner" % cur_turn)
