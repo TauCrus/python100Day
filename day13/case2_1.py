@@ -1,5 +1,7 @@
+# coding:utf-8
 '''
-使用多进程对复杂任务进行 分而治之 
+使用多进程对复杂任务进行 
+分而治之 
 '''
 
 from time import time

@@ -1,10 +1,12 @@
+# coding:utf-8
+
 '''
 使用多进程对复杂任务进行 分而治之 
 '''
 
 
 from multiprocessing import Process, Queue
-from random import randint
+# from random import randint
 from time import time
 
 
@@ -38,7 +40,7 @@ def main():
         total += result_queue.get()
     print(total)
     end = time()
-    print('Execution time:%.3fs' % (end-start)  )
+    print('Execution time:%.3fs' % (end-start))
 
 
 if __name__ == "__main__":
